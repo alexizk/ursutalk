@@ -1,0 +1,136 @@
+{
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://aurenyx.ursu.cloud",
+            "server_name": "ursu.cloud"
+        },
+        "m.identity_server": {
+            "base_url": "https://aurenyx.ursu.cloud"
+        }
+    },
+    "disable_custom_urls": false,
+    "disable_3pid_login": false,
+    "disable_login_language_selector": false,
+    "disable_custom_identity_server": false,
+    "default_server_name": "ursu.cloud",
+    "disable_custom_homeserver": false,
+    "disable_guests": false,
+    "disable_federation": false,
+    "force_verification": false,
+    "support_url": "https://support.ursu.cloud/",
+    "default_federate": true,
+    "settingDefaults": {
+      "showLabsSettings": true,
+      "theme": "dark",
+      "notificationBodyEnabled": true,
+      "readReceiptsEnabled": true,
+      "autoplayGifs": true,
+      "timelineRichReplies": true,
+      "urlPreviewsEnabled": true,
+      "deviceTrackingEnabled": true,
+      "showJoinLeaveMessages": true,
+      "urlPreviewWidget": true,
+      "enableSpaces": true,
+      "breadcrumbs": true
+    },
+    "brand": "Ursu Talk",
+    "integrations_ui_url": "https://scalar.vector.im/",
+    "integrations_rest_url": "https://scalar.vector.im/api",
+    "integrations_widgets_urls": [
+        "https://scalar.vector.im/_matrix/integrations/v1",
+        "https://scalar.vector.im/api",
+        "https://scalar-staging.vector.im/_matrix/integrations/v1",
+        "https://scalar-staging.vector.im/api",
+        "https://scalar-staging.riot.im/scalar/api"
+    ],
+    "default_widget_container_height": 280,
+    "default_country_code": "US",
+    "show_labs_settings": false,
+    "features": {
+      "feature_video_rooms": true,
+      "feature_spaces": true,
+      "feature_custom_status": true,
+      "feature_jump_to_date": true,
+      "feature_breadcrumbs": true,
+      "feature_groups": true,
+      "feature_custom_themes": true,
+      "feature_end_to_end_encryption": true,
+      "feature_pinning": "labs",
+      "feature_poll_creation": true,
+      "feature_thread_nesting": true,
+      "feature_wysiwyg_composer": true,
+      "feature_room_aliases": true,
+      "feature_custom_tags": "labs",
+      "feature_state_counters": "labs",
+      "feature_latex_maths": true,
+      "feature_mjolnir": true,
+      "feature_dm_verification": true,
+      "feature_bridge_state": true,
+      "feature_presence_in_room_list": true,
+      "feature_breadcrumbs_v2": true,
+      "feature_spotlight": true,
+      "feature_right_panel_default_open": true,
+      "feature_element_call_video_rooms": true,
+      "feature_exploring_public_spaces": true,
+      "feature_favourite_messages": true,
+      "feature_qr_signin_reciprocate_show": true
+    },
+    "default_theme": "dark",
+    "room_directory": {
+        "servers": ["ursu.cloud", "matrix.org", "sentry.chat"]
+    },
+    "enable_presence_by_hs_url": {
+        "https://ursu.cloud": true,
+        "https://aurenyx.ursu.cloud": true
+    },
+    "jitsi": {
+      "preferredDomain": "jitsi.ursu.cloud",
+      "open_graph_url": "https://jitsi.ursu.cloud/open_graph",
+      "jitsi_widget_endpoint": "https://jitsi.ursu.cloud/jitsi_widget"
+    },
+    "element_call": {
+        "url": "https://call.ursu.cloud",
+        "participant_limit": 8,
+        "brand": "Ursu Call"
+    },
+    "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx",
+    "permalink_prefix": "https://talk.ursu.cloud",
+    "bug_report_endpoint_url": "https://element.io/bug_report",
+    "showDeclineButtonInInvite": true,
+    "showNewRoomOptions": true,
+    "custom_widgets": {
+      "element-call": {
+        "url": "https://call.ursu.cloud/"
+      }
+    },
+    "registration_url": "https://ursu.cloud/#/register",
+    "embeddedPages": [
+      {
+        "name": "About Ursu Talk",
+        "url": "https://www.ursu.cloud/talk-about",
+        "icon": "globe",
+        "placement": "auth"
+      },
+      {
+        "name": "Privacy Policy",
+        "url": "https://www.ursu.cloud/talk-privacy-policy",
+        "icon": "book",
+        "placement": "auth"
+      }
+    ],
+    "authBackgrounds": {
+      "desktop": "https://i.ibb.co/B51jZFYQ/bearclaw-resized.jpg",
+      "tablet": "https://i.ibb.co/B51jZFYQ/bearclaw-resized.jpg",
+      "mobile": "https://i.ibb.co/B51jZFYQ/bearclaw-resized.jpg"
+    },
+    "mobile_guide_toast": true,
+    "branding": {
+      "auth_footer_links": [
+        { "text": "Donate", "url": "https://www.buymeacoffee.com/bearportal" }
+      ]
+    },
+    "user_notice": {
+      "title": "Important Notice",
+      "description": "This is an important notice for users. Do not Poke the Sentry Bear!"
+    }
+}
